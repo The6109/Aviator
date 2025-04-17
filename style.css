@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.container {
+  background: #1f1f1f;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+input, button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+button {
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#prediction-output {
+  margin-top: 1rem;
+}
